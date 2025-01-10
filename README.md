@@ -24,10 +24,10 @@ dependencyResolutionManagement {
 
 In your `build.gradle` file, add the following dependency:
 
-[![](https://jitpack.io/v/Radzdevteam/updater.svg)](https://jitpack.io/#Radzdevteam/updater)
+[![](https://jitpack.io/v/Radzdevteam/app-updater.svg)](https://jitpack.io/#Radzdevteam/app-updater)
 ```gradle
 dependencies {
-     implementation ("com.github.Radzdevteam:updater:Tag")
+     implementation ("com.github.Radzdevteam:app-updater:Tag")
 }
 ```
 
