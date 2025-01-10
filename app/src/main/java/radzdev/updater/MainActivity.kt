@@ -4,6 +4,7 @@ import android.os.Bundle
 import androidx.activity.ComponentActivity
 import com.radzdev.radzupdater.Updater
 
+
 class MainActivity : ComponentActivity() {
     private lateinit var updater: Updater
 

@@ -233,6 +233,9 @@ class Updater(
     }
 
     private fun showValidationError(message: String) {
-        Toast.makeText(context, message, Toast.LENGTH_SHORT).show()
+        CoroutineScope(Dispatchers.Main).launch {
+            Toast.makeText(context, message, Toast.LENGTH_SHORT).show()
+        }
     }
+
 }
