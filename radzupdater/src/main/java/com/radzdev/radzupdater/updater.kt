@@ -22,7 +22,6 @@ import java.io.File
 import android.Manifest
 import android.net.Uri
 import androidx.activity.ComponentActivity
-import androidx.annotation.RequiresApi
 
 class Updater(
     private val context: Context,
